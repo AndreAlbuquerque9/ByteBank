@@ -12,6 +12,6 @@ class Diretor(
 
 
     fun atutentica(senha: Int): Boolean {
-        return this.senha == 1234
+        return this.senha == senha
     }
 }

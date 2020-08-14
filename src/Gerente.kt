@@ -10,7 +10,7 @@ class Gerente(
 ) {
 
 
-    fun atutentica(senha: Int) {
-
+    fun atutentica(senha: Int): Boolean {
+        return this.senha == senha
     }
 }
