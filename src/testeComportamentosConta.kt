@@ -1,6 +1,6 @@
 fun testeComportamentosConta() {
-    val contaAndre = Conta("André", 1001)
-    val contaMay = Conta("May", 1002)
+    val contaAndre = ContaCorrente("André", 1001)
+    val contaMay = ContaPoupanca("May", 1002)
 
     contaAndre.deposita(100.0)
     contaMay.deposita(200.0)
