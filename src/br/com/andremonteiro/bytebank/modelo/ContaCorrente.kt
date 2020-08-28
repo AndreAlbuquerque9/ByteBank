@@ -1,3 +1,5 @@
+package br.com.andremonteiro.bytebank.modelo
+
 class ContaCorrente(
         titular: String,
         numeroConta: Int

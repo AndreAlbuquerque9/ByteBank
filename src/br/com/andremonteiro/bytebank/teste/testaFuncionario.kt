@@ -1,3 +1,9 @@
+package br.com.andremonteiro.bytebank.teste
+
+import br.com.andremonteiro.bytebank.modelo.Analista
+import br.com.andremonteiro.bytebank.modelo.Diretor
+import br.com.andremonteiro.bytebank.modelo.Gerente
+
 fun testaFuncionario() {
     val funcionario = Analista(
             nome = "André",

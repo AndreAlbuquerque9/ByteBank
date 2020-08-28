@@ -1,3 +1,8 @@
+package br.com.andremonteiro.bytebank.teste
+
+import br.com.andremonteiro.bytebank.modelo.ContaCorrente
+import br.com.andremonteiro.bytebank.modelo.ContaPoupanca
+
 fun testeComportamentosConta() {
     val contaAndre = ContaCorrente("André", 1001)
     val contaMay = ContaPoupanca("May", 1002)

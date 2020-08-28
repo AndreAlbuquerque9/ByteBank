@@ -1,3 +1,5 @@
+package br.com.andremonteiro.bytebank.modelo
+
 class CalculadorBonificacao {
 
     var total: Double = 0.0

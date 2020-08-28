@@ -1,5 +1,7 @@
+package br.com.andremonteiro.bytebank.modelo
+
 abstract class Conta(var titular: String,
-                 val numeroConta: Int) {
+                     val numeroConta: Int) {
     var saldo: Double = 0.0
         protected set
 

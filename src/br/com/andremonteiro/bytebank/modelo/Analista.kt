@@ -1,4 +1,5 @@
-import java.lang.Math.round
+package br.com.andremonteiro.bytebank.modelo
+
 import kotlin.math.roundToInt
 
 class Analista(

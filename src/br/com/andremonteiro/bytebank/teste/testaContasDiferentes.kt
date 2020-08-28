@@ -1,3 +1,8 @@
+package br.com.andremonteiro.bytebank.teste
+
+import br.com.andremonteiro.bytebank.modelo.ContaCorrente
+import br.com.andremonteiro.bytebank.modelo.ContaPoupanca
+
 fun testaContasDiferentes() {
     val cc = ContaCorrente(
             titular = "André",

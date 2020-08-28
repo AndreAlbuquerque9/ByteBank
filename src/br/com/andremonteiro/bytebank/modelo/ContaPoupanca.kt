@@ -1,3 +1,5 @@
+package br.com.andremonteiro.bytebank.modelo
+
 class ContaPoupanca(
         titular: String,
         numeroConta: Int

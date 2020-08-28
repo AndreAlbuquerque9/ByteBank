@@ -1,4 +1,6 @@
-import java.lang.Math.round
+package br.com.andremonteiro.bytebank.modelo
+
+import kotlin.math.roundToInt
 
 class Diretor(
         nome: String,
@@ -12,7 +14,7 @@ class Diretor(
         senha
 ) {
 
-    val plr: Double = round(salario * 12 * 0.07).toDouble()
+    val plr: Double = (salario * 12 * 0.07).roundToInt().toDouble()
 
     override val bonificacao: Double get() = salario + plr
 
