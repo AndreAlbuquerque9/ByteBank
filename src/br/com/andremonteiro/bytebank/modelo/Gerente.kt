@@ -1,17 +1,20 @@
 package br.com.andremonteiro.bytebank.modelo
 
 class Gerente(
-        nome: String,
-        cpf: String,
-        salario: Double,
-        senha: Int
+    nome: String,
+    cpf: String,
+    salario: Double,
+    senha: Int
 ) : FuncionarioAdmin(
-        nome,
-        cpf,
-        salario,
-        senha
+    nome = nome,
+    cpf = cpf,
+    salario = salario,
+    senha = senha
 ) {
 
-    override val bonificacao: Double get() = salario
+    override val bonificacao: Double
+        get() {
+            return salario
+        }
 
 }

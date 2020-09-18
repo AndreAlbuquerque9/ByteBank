@@ -1,15 +1,15 @@
 package br.com.andremonteiro.bytebank.teste
 
-import br.com.andremonteiro.bytebank.modelo.Analista
+//import br.com.andremonteiro.bytebank.modelo.Analista
 import br.com.andremonteiro.bytebank.modelo.Diretor
 import br.com.andremonteiro.bytebank.modelo.Gerente
 
 fun testaFuncionario() {
-    val funcionario = Analista(
+/*    val funcionario = Analista(
             nome = "André",
             cpf = "111.111.111-11",
             salario = 1000.0
-    )
+    )*/
 
     val gerente = Gerente(
             nome = "Edgar",
@@ -21,21 +21,22 @@ fun testaFuncionario() {
             nome = "May",
             cpf = "111.111.111-11",
             salario = 3000.0,
-            senha = 12345
+            senha = 12345,
+            plr = 20.0
     )
 
-    val analista = Analista(
+/*    val analista = Analista(
             nome = "Luigi",
             cpf = "111.111.111-11",
             salario = 4000.0
-    )
+    )*/
 
-    println("Nome ${funcionario.nome}")
+/*    println("Nome ${funcionario.nome}")
     println("Cpf ${funcionario.cpf}")
     println("Salario ${funcionario.salario}")
     println("Bonificação ${funcionario.bonificacao}")
     println("Plr ${funcionario.plr}")
-    println()
+    println()*/
 
     println("Nome ${gerente.nome}")
     println("Cpf ${gerente.cpf}")
@@ -54,10 +55,10 @@ fun testaFuncionario() {
     else println("Senha inválida")
     println()
 
-    println("Nome ${analista.nome}")
+/*    println("Nome ${analista.nome}")
     println("Cpf ${analista.cpf}")
     println("Salario ${analista.salario}")
     println("Bonificação ${analista.bonificacao}")
     println("Plr ${analista.plr}")
-    println()
+    println()*/
 }

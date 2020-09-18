@@ -1,11 +1,11 @@
 package br.com.andremonteiro.bytebank.modelo
 
 class ContaPoupanca(
-        titular: String,
+        titular: Cliente,
         numeroConta: Int
 ) : Conta(
         titular = titular,
-        numeroConta = numeroConta
+        numero = numeroConta
 ) {
     override fun saca(valor: Double) {
         if (this.saldo >= valor) {

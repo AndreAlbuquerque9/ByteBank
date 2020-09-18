@@ -1,21 +1,21 @@
 package br.com.andremonteiro.bytebank.modelo
 
-import kotlin.math.roundToInt
-
 class Diretor(
-        nome: String,
-        cpf: String,
-        salario: Double,
-        senha: Int
+    nome: String,
+    cpf: String,
+    salario: Double,
+    senha: Int,
+    val plr: Double
 ) : FuncionarioAdmin(
-        nome,
-        cpf,
-        salario,
-        senha
+    nome = nome,
+    cpf = cpf,
+    salario = salario,
+    senha = senha
 ) {
 
-    val plr: Double = (salario * 12 * 0.07).roundToInt().toDouble()
-
-    override val bonificacao: Double get() = salario + plr
+    override val bonificacao: Double
+        get() {
+            return salario + plr
+        }
 
 }
